@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body > h1 {
+  color: gray;
+}
+
+.panel {
+  display: flex;
+  border-radius: 12px;
+}
+
+.bg {
+  background-color: rgb(10, 10, 10);
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.jcenter {
+  justify-content: center;
+}
+
+.jevenly {
+  justify-content: space-evenly;
+}
+
+.jbetween {
+  justify-content: space-between;
+}
+
+.jend {
+  justify-content: flex-end;
+}
+
+.acenter {
+  align-items: center;
+}
+
+.aend {
+  align-items: end;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+.pad {
+  padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+    color: darkgray;
+}
